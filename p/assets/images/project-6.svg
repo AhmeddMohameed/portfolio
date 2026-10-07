@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" fill="none">
+    <rect width="640" height="360" fill="#090d18"/>
+    <rect width="640" height="46" fill="#101627" stroke="#1d263f"/>
+    <text x="30" y="29" fill="#6366f1" font-family="sans-serif" font-weight="900" font-size="15">NEXUS · FINANCIAL ANALYTICS</text>
+    <g transform="translate(30, 62)">
+      <rect width="260" height="135" rx="10" fill="url(#p6Grad)"/>
+      <defs>
+        <linearGradient id="p6Grad" x1="0" y1="0" x2="260" y2="135" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#312e81"/>
+          <stop offset="1" stop-color="#4c1d95"/>
+        </linearGradient>
+      </defs>
+      <text x="20" y="32" fill="#c7d2fe" font-family="sans-serif" font-size="11">TOTAL CONSOLIDATED ASSETS</text>
+      <text x="20" y="68" fill="#fff" font-family="sans-serif" font-weight="900" font-size="26">$284,920.40</text>
+      <text x="20" y="94" fill="#34d399" font-family="monospace" font-weight="700" font-size="12">▲ +$18,420.00 (This Month)</text>
+      <text x="20" y="118" fill="#a5b4fc" font-family="monospace" font-size="10">IBAN: **** 8492 · Visa Business</text>
+    </g>
+    <g transform="translate(310, 62)">
+      <rect width="300" height="135" rx="10" fill="#12182b" stroke="#222b46"/>
+      <text x="20" y="28" fill="#fff" font-family="sans-serif" font-weight="700" font-size="12">Monthly Cash Flow vs Outflow</text>
+      <rect x="25" y="65" width="22" height="55" rx="3" fill="#6366f1"/>
+      <rect x="65" y="50" width="22" height="70" rx="3" fill="#6366f1"/>
+      <rect x="105" y="40" width="22" height="80" rx="3" fill="#6366f1"/>
+      <rect x="145" y="35" width="22" height="85" rx="3" fill="#10b981"/>
+      <rect x="185" y="45" width="22" height="75" rx="3" fill="#6366f1"/>
+      <rect x="225" y="30" width="22" height="90" rx="3" fill="#10b981"/>
+      <text x="25" y="130" fill="#64748b" font-family="monospace" font-size="9">MAY</text>
+      <text x="65" y="130" fill="#64748b" font-family="monospace" font-size="9">JUN</text>
+      <text x="105" y="130" fill="#64748b" font-family="monospace" font-size="9">JUL</text>
+      <text x="145" y="130" fill="#64748b" font-family="monospace" font-size="9">AUG</text>
+      <text x="185" y="130" fill="#64748b" font-family="monospace" font-size="9">SEP</text>
+      <text x="225" y="130" fill="#64748b" font-family="monospace" font-size="9">OCT</text>
+    </g>
+    <rect x="30" y="215" width="580" height="120" rx="8" fill="#12182b" stroke="#222b46"/>
+    <text x="48" y="240" fill="#fff" font-family="sans-serif" font-weight="700" font-size="12">Recent Financial Transactions</text>
+    <text x="48" y="268" fill="#cbd5e1" font-family="sans-serif" font-size="11">Stripe Checkout Payout (Batch #391)</text>
+    <text x="520" y="268" fill="#10b981" font-family="monospace" font-weight="700" font-size="11">+$14,200.00</text>
+    <text x="48" y="294" fill="#cbd5e1" font-family="sans-serif" font-size="11">AWS Cloud Server Infrastructure &amp; S3</text>
+    <text x="520" y="294" fill="#f43f5e" font-family="monospace" font-weight="700" font-size="11">-$480.50</text>
+    <text x="48" y="320" fill="#cbd5e1" font-family="sans-serif" font-size="11">GitHub Enterprise &amp; Continuous Integration</text>
+    <text x="520" y="320" fill="#f43f5e" font-family="monospace" font-weight="700" font-size="11">-$120.00</text>
+  </svg>

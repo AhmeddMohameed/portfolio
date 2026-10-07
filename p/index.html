@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmed Mohamed — Full Stack Web Developer</title>
+<meta name="description" content="Portfolio of Ahmed Mohamed — Full Stack Web Developer specializing in React, Next.js, Node.js, TypeScript, and modern scalable web systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div id="pre"><div><b>AM.</b><i></i></div></div>
+<div id="pg"></div>
+
+<nav id="navigation">
+  <a href="#" class="brand-logo" aria-label="Home"><b>AM</b><span>.dev</span></a>
+  <div id="lk">
+    <a href="#ab">About</a>
+    <a href="#ex">Expertise</a>
+    <a href="#sk">Tech Stack</a>
+    <a href="#pr">Projects</a>
+    <a href="#gl">Behind The Code</a>
+    <a href="#hi">History</a>
+    <a href="#ct">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <button id="th" aria-label="Toggle theme">☀</button>
+    <button id="bg" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="hero" id="hero">
+  <svg class="wave" viewBox="0 0 1000 320" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1">
+        <stop offset="0" stop-color="#4c1d95"/>
+        <stop offset="0.5" stop-color="#8b5cf6"/>
+        <stop offset="1" stop-color="#2de2c5"/>
+      </linearGradient>
+    </defs>
+    <g fill="none" stroke="url(#g)" id="lines"></g>
+  </svg>
+  <canvas id="cv"></canvas>
+
+  <div class="in">
+    <div class="soc">
+      <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+      <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+    </div>
+
+    <div class="row">
+      <div class="av" aria-label="Ahmed Mohamed">
+        <img src="assets/images/ahmed-profile.jpg" alt="Ahmed Mohamed — Full Stack Web Developer" width="116" height="116" class="av-img">
+      </div>
+      <div class="hero-intro">
+        <div class="status-pill"><span class="dot"></span> Available for Full-Time Roles &amp; High-Impact Projects</div>
+        <h1 id="nm">Ahmed Mohamed</h1>
+        <p class="sub"><span id="ty"></span><i class="cr"></i></p>
+      </div>
+    </div>
+
+    <!-- 3D HERO WEB DEVELOPMENT VISUAL -->
+    <div class="hero-visual-container" id="heroVisualWrap">
+      <div class="hero-browser-window" id="heroWindow">
+        <!-- Window Titlebar -->
+        <div class="browser-bar">
+          <div class="window-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="window-actions">
+            <span class="badge live-badge">● 200 OK</span>
+          </div>
+        </div>
+
+        <!-- Window Body: Split IDE & Live UI View -->
+        <div class="browser-body">
+          <!-- Code Editor Pane -->
+          <div class="ide-pane">
+            <div class="ide-tab-bar">
+              <span class="tab active"><img src="assets/images/icons/react.svg" alt="" width="14" height="14"> App.tsx</span>
+              <span class="tab"><img src="assets/images/icons/typescript.svg" alt="" width="14" height="14"> api.ts</span>
+              <span class="tab"><img src="assets/images/icons/database.svg" alt="" width="14" height="14"> schema.sql</span>
+            </div>
+            <pre class="code-view"><code id="heroCode"><span class="c-dim">// Full Stack Web Development</span>
+<span class="c-k">import</span> { useState, useEffect } <span class="c-k">from</span> <span class="c-s">'react'</span>;
+<span class="c-k">import</span> { createServerAction } <span class="c-k">from</span> <span class="c-s">'next/server'</span>;
+
+<span class="c-k">export default function</span> <span class="c-f">FullStackApp</span>() {
+  <span class="c-k">const</span> [metrics, setMetrics] = <span class="c-f">useState</span>({
+    performance: <span class="c-n">100</span>,
+    uptime: <span class="c-s">'99.99%'</span>,
+    latency: <span class="c-s">'24ms'</span>
+  });
+
+  <span class="c-k">return</span> (
+    &lt;<span class="c-t">DigitalExperience</span>
+      developer=<span class="c-s">"Ahmed Mohamed"</span>
+      stack={[<span class="c-s">"React"</span>, <span class="c-s">"Node"</span>, <span class="c-s">"TS"</span>]}
+      responsive={<span class="c-k">true</span>}
+    /&gt;
+  );
+}</code></pre>
+          </div>
+
+          <!-- Live UI Preview Pane -->
+          <div class="preview-pane">
+            <div class="preview-header">
+              <span class="preview-title">Live Preview · Modern Web UI</span>
+              <div class="preview-screen-toggle">
+                <span class="active">Desktop</span>
+                <span>Mobile</span>
+              </div>
+            </div>
+            <div class="preview-card-grid">
+              <div class="preview-card metric-card">
+                <span class="metric-label">API Latency</span>
+                <b class="metric-val">24ms</b>
+                <span class="metric-pill positive">⚡ Ultra Fast</span>
+              </div>
+              <div class="preview-card metric-card">
+                <span class="metric-label">Lighthouse</span>
+                <b class="metric-val">100/100</b>
+                <span class="metric-pill positive">✦ Perfect Score</span>
+              </div>
+              <div class="preview-card interactive-card">
+                <div class="user-row">
+                  <div class="user-avatar"><img src="assets/images/ahmed-profile.jpg" alt="Ahmed Mohamed" width="28" height="28" class="preview-avatar-img"></div>
+                  <div>
+                    <strong>Full-Stack Architecture</strong>
+                    <small>Cloud Infrastructure Live</small>
+                  </div>
+                </div>
+                <div class="fake-progress">
+                  <div class="bar" style="width: 88%"></div>
+                </div>
+                <button class="preview-btn" type="button">Deploy To Production ➔</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating 3D Satellite Panels -->
+      <div class="floating-panel panel-left" id="heroSatLeft">
+        <div class="satellite-icon"><img src="assets/images/icons/react.svg" alt="React" width="22" height="22"></div>
+        <div class="satellite-info">
+          <strong>React 19 &amp; Next.js 15</strong>
+          <small>Server Components &amp; SSR</small>
+        </div>
+      </div>
+
+      <div class="floating-panel panel-right" id="heroSatRight">
+        <div class="satellite-icon"><img src="assets/images/icons/nodejs.svg" alt="Node.js" width="22" height="22"></div>
+        <div class="satellite-info">
+          <strong>Node.js &amp; REST / GraphQL</strong>
+          <small>Scalable Microservices</small>
+        </div>
+      </div>
+
+      <div class="floating-panel panel-bottom" id="heroSatBottom">
+        <div class="satellite-icon"><img src="assets/images/icons/database.svg" alt="Database" width="22" height="22"></div>
+        <div class="satellite-info">
+          <strong>PostgreSQL &amp; Prisma</strong>
+          <small>Optimized Query Performance</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<main class="wrap">
+  <!-- STATS BAR -->
+  <div class="stats">
+    <div class="stat item"><b data-n="6">0</b><small>Project Concepts</small></div>
+    <div class="stat item" style="transition-delay:.1s"><b data-n="12" data-s="+">0</b><small>Core Technologies</small></div>
+    <div class="stat item" style="transition-delay:.2s"><b data-n="100" data-s="%">0</b><small>Responsive &amp; Accessible</small></div>
+    <div class="stat item" style="transition-delay:.3s"><b data-n="3">0</b><small>Full Stack Pillars</small></div>
+  </div>
+
+  <!-- ABOUT SECTION WITH PROFESSIONAL WORKSPACE VISUAL -->
+  <section id="ab" class="about-section-wrap">
+    <h2>About Me</h2>
+    <p class="section-tagline">Architecting Scalable Web Applications &amp; Immersive Digital Experiences</p>
+
+    <div class="about-grid">
+      <!-- About Visual Card with Parallax and Hover Reveal -->
+      <div class="about-visual-card item" id="aboutVisualCard">
+        <div class="about-img-frame">
+          <img src="assets/images/about-workspace.jpg"
+               alt="Ahmed Mohamed — Developer Workspace with Code Screens and Modern Setup"
+               width="800" height="600"
+               loading="lazy" decoding="async"
+               class="about-img" id="aboutImg">
+          <div class="about-img-overlay"></div>
+          <div class="about-badge top-badge">
+            <span class="pulse-indicator"></span> Full Stack Web Developer
+          </div>
+          <div class="about-badge bottom-badge">
+            <strong>Clean Code &amp; Architecture</strong>
+            <span>Performance First Development</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Content -->
+      <div class="about-content item" style="transition-delay:.15s">
+        <h3 class="about-lead">Turning complex business logic into smooth, elegant, and high-performance digital products.</h3>
+        <p>I am a passionate Full Stack Developer with expertise in building end-to-end web applications. My methodology blends clean software architecture, intuitive user interface design, and bulletproof backend services.</p>
+        <p>From developing interactive, component-driven client applications with <strong>React</strong> and <strong>Next.js</strong> to designing scalable RESTful APIs and optimized databases with <strong>Node.js</strong> and <strong>PostgreSQL</strong>, I care deeply about developer experience, code maintainability, and end-user delight.</p>
+
+        <div class="about-disciplines">
+          <div class="discipline-card">
+            <div class="disc-icon"><img src="assets/images/icons/react.svg" alt="Frontend" width="20" height="20"></div>
+            <div>
+              <strong>Frontend Engineering</strong>
+              <p>Responsive, accessible, and reactive interfaces with pixel-perfect attention to detail.</p>
+            </div>
+          </div>
+          <div class="discipline-card">
+            <div class="disc-icon"><img src="assets/images/icons/nodejs.svg" alt="Backend" width="20" height="20"></div>
+            <div>
+              <strong>Backend &amp; API Architecture</strong>
+              <p>Secure microservices, authentication systems, and fast REST &amp; GraphQL endpoints.</p>
+            </div>
+          </div>
+          <div class="discipline-card">
+            <div class="disc-icon"><img src="assets/images/icons/database.svg" alt="Database" width="20" height="20"></div>
+            <div>
+              <strong>Databases &amp; System Design</strong>
+              <p>Relational and NoSQL data structures designed for high throughput and reliability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / TECH STACK SECTION WITH OFFICIAL VISUAL LOGOS -->
+  <section id="sk" class="skills-section">
+    <h2>Technologies &amp; Tools</h2>
+    <p class="section-tagline">Industry-standard tools and frameworks powering my development workflow</p>
+    <div class="tech-grid" id="techGrid">
+      <!-- Injected via JavaScript with authentic brand SVGs & subtle scroll float -->
+    </div>
+  </section>
+
+  <!-- EXPERTISE SECTION -->
+  <section id="ex">
+    <h2>Core Expertise</h2>
+    <p class="section-tagline">Comprehensive full stack capabilities across the entire product lifecycle</p>
+    <div class="cols">
+      <div class="ex item">
+        <div class="ic">&lt;/&gt;</div>
+        <h3>Frontend Development</h3>
+        <p>Responsive, accessible web interfaces engineered with modern JavaScript, TypeScript, React, and Next.js. Obsessed with high Lighthouse scores and fluid micro-interactions.</p>
+        <div class="tech">Tech stack:
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Tailwind</span>
+          </div>
+        </div>
+      </div>
+      <div class="ex item" style="transition-delay:.1s">
+        <div class="ic">{ }</div>
+        <h3>Backend &amp; APIs</h3>
+        <p>Robust server-side architectures, RESTful APIs, and webhook integrations that reliably power web applications, dashboards, and complex transactional systems.</p>
+        <div class="tech">Tech stack:
+          <div class="tags">
+            <span>Node.js</span><span>Express</span><span>REST APIs</span><span>GraphQL</span><span>Git</span><span>GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+      <div class="ex item" style="transition-delay:.2s">
+        <div class="ic">DB</div>
+        <h3>Databases &amp; Architecture</h3>
+        <p>Structured data models, migrations, caching strategies, and scalable software design patterns that ensure digital products operate reliably under scale.</p>
+        <div class="tech">Tech stack:
+          <div class="tags">
+            <span>PostgreSQL</span><span>Database Design</span><span>Prisma ORM</span><span>System Architecture</span><span>Security</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREER HISTORY -->
+  <section id="hi">
+    <h2>Career History</h2>
+    <p class="section-tagline">Experience and milestones in engineering digital solutions</p>
+    <div class="tl">
+      <div class="ti item">
+        <h3>Full Stack Web Developer</h3>
+        <b>Independent &amp; Contract · Global</b>
+        <p>Architecting full-stack web applications, e-commerce platforms, and real-time dashboards for diverse clients using React, Next.js, and Node.js.</p>
+        <small>2023 · Present</small>
+      </div>
+      <div class="ti item">
+        <h3>Frontend Software Engineer</h3>
+        <b>Digital Products Studio</b>
+        <p>Crafted scalable web components, interactive UI design systems, and responsive applications with strict performance budgets.</p>
+        <small>2021 · 2023</small>
+      </div>
+      <div class="ti item">
+        <h3>Web &amp; Software Developer</h3>
+        <b>Tech Solutions</b>
+        <p>Developed full-stack features, maintained relational database schemas, and integrated third-party payment and analytics APIs.</p>
+        <small>2019 · 2021</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONAL PROJECTS SECTION WITH SCREENSHOTS & PLACEHOLDER TRANSPARENCY -->
+  <section id="pr">
+    <h2>Featured Web Projects</h2>
+    <p class="section-tagline">Full-stack web applications, e-commerce storefronts, and management dashboards</p>
+    <div class="grid" id="pj"></div>
+  </section>
+
+  <!-- WEB DEVELOPMENT IMAGE GALLERY: BEHIND THE CODE -->
+  <section id="gl" class="gallery-section">
+    <h2>Behind The Code</h2>
+    <p class="section-tagline">Building Digital Experiences — A glimpse into the craft, architecture, and developer environment</p>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Injected via JavaScript with Image Reveal, Parallax & Scale -->
+    </div>
+  </section>
+</main>
+
+<!-- FULLSCREEN IMAGE SECTION -->
+<div class="fs" id="fs">
+  <div class="st">
+    <div class="fr" id="fr">
+      <img src="assets/images/fullscreen-bg.jpg"
+           alt="Web Development Code on Screen Fullscreen Background"
+           class="fs-bg-img" id="fsBgImg"
+           loading="lazy" decoding="async">
+      <div class="fs-overlay"></div>
+      <div class="fs-content">
+        <span class="fs-badge">Full Stack Craftsmanship</span>
+        <h2 id="ft">Turning Code Into <span>Digital Experiences.</span></h2>
+        <p class="fs-sub">Scalable Architectures · Clean Codebases · Pixel-Perfect Design</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <!-- CONTACT SECTION -->
+  <section id="ct">
+    <h2 class="no-line">Let's Build Something Great</h2>
+    <p class="section-tagline">Have a web project in mind or looking for a dedicated Full Stack Web Developer? Reach out and let's collaborate!</p>
+    <form id="contactForm" novalidate>
+      <div class="two">
+        <input id="cf-name" placeholder="Your Name *" aria-label="Name" required>
+        <input id="cf-email" placeholder="Email Address or Phone" aria-label="Email or Phone" type="text" inputmode="email">
+      </div>
+      <input id="cf-subject" placeholder="Project Subject (e.g., Full Stack Web Application)" aria-label="Subject">
+      <textarea id="cf-message" placeholder="Tell me about your project, timeline, and requirements *" aria-label="Message" required></textarea>
+      <button class="send" id="cf-btn" type="submit">SEND MESSAGE VIA WHATSAPP ➤</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-wrap">
+    <div class="footer-brand">
+      <b>Ahmed Mohamed</b>
+      <p>Full Stack Web Developer crafting high-impact digital experiences.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ahmed Mohamed. Built with clean code &amp; <span style="color:var(--ac)">♥</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

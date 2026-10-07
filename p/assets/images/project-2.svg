@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" fill="none">
+    <rect width="640" height="360" fill="#0b0f19"/>
+    <rect width="120" height="360" fill="#111626"/>
+    <text x="60" y="32" fill="#8b5cf6" font-family="sans-serif" font-weight="900" font-size="14" text-anchor="middle">ANALYTICS</text>
+    <rect x="15" y="55" width="90" height="24" rx="4" fill="#8b5cf6" fill-opacity="0.15"/>
+    <text x="35" y="71" fill="#c4b5fd" font-family="sans-serif" font-size="11">Overview</text>
+    <text x="35" y="105" fill="#64748b" font-family="sans-serif" font-size="11">Realtime</text>
+    <text x="35" y="135" fill="#64748b" font-family="sans-serif" font-size="11">Revenue</text>
+    <text x="35" y="165" fill="#64748b" font-family="sans-serif" font-size="11">Customers</text>
+    <text x="35" y="195" fill="#64748b" font-family="sans-serif" font-size="11">Reports</text>
+    <rect x="120" y="0" width="520" height="46" fill="#111626" stroke="#1f273e"/>
+    <text x="145" y="28" fill="#fff" font-family="sans-serif" font-weight="700" font-size="14">Enterprise Performance Matrix</text>
+    <g transform="translate(140, 60)">
+      <rect width="145" height="70" rx="8" fill="#141a2c" stroke="#232c44"/>
+      <text x="14" y="26" fill="#94a3b8" font-family="sans-serif" font-size="11">Total Revenue</text>
+      <text x="14" y="52" fill="#fff" font-family="sans-serif" font-weight="800" font-size="18">$148,250</text>
+      <text x="100" y="52" fill="#10b981" font-family="monospace" font-size="10">+24.5%</text>
+    </g>
+    <g transform="translate(300, 60)">
+      <rect width="145" height="70" rx="8" fill="#141a2c" stroke="#232c44"/>
+      <text x="14" y="26" fill="#94a3b8" font-family="sans-serif" font-size="11">Active Sessions</text>
+      <text x="14" y="52" fill="#fff" font-family="sans-serif" font-weight="800" font-size="18">12,480</text>
+      <text x="100" y="52" fill="#10b981" font-family="monospace" font-size="10">+12.8%</text>
+    </g>
+    <g transform="translate(460, 60)">
+      <rect width="155" height="70" rx="8" fill="#141a2c" stroke="#232c44"/>
+      <text x="14" y="26" fill="#94a3b8" font-family="sans-serif" font-size="11">API Throughput</text>
+      <text x="14" y="52" fill="#fff" font-family="sans-serif" font-weight="800" font-size="18">99.98%</text>
+      <text x="108" y="52" fill="#38bdf8" font-family="monospace" font-size="10">24ms</text>
+    </g>
+    <rect x="140" y="146" width="305" height="195" rx="8" fill="#141a2c" stroke="#232c44"/>
+    <text x="156" y="172" fill="#fff" font-family="sans-serif" font-weight="700" font-size="12">Revenue Growth Curve</text>
+    <path d="M160 300 Q200 270 240 280 T320 220 T420 180" fill="none" stroke="#8b5cf6" stroke-width="3"/>
+    <path d="M160 300 Q200 270 240 280 T320 220 T420 180 L420 310 L160 310 Z" fill="#8b5cf6" fill-opacity="0.1"/>
+    <rect x="460" y="146" width="155" height="195" rx="8" fill="#141a2c" stroke="#232c44"/>
+    <text x="474" y="172" fill="#fff" font-family="sans-serif" font-weight="700" font-size="12">Audit Log</text>
+    <circle cx="480" cy="200" r="4" fill="#10b981"/><text x="492" y="204" fill="#cbd5e1" font-family="sans-serif" font-size="10">Order #8904</text>
+    <circle cx="480" cy="230" r="4" fill="#38bdf8"/><text x="492" y="234" fill="#cbd5e1" font-family="sans-serif" font-size="10">Deploy hook</text>
+    <circle cx="480" cy="260" r="4" fill="#8b5cf6"/><text x="492" y="264" fill="#cbd5e1" font-family="sans-serif" font-size="10">DB backup OK</text>
+    <circle cx="480" cy="290" r="4" fill="#f59e0b"/><text x="492" y="294" fill="#cbd5e1" font-family="sans-serif" font-size="10">Sync warning</text>
+  </svg>
